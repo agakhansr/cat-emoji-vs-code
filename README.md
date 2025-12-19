@@ -1,12 +1,16 @@
-# Running Cat
+# cat-emoji-vs-code
 
-A fun VS Code extension that displays an animated cat running between your code lines!
+⚠️ **Testing Only** - This is a test project to explore how VS Code extensions work. It's not intended for production use or public download.
+
+## What It Does
+
+This extension runs emoji animations (🐱, 😼, 🐈) across your code lines in VS Code. That's it! Nothing more, nothing less.
 
 ## Features
 
-- 🐱 Animated cat that bounces around your code
-- ⚡ Toggle on/off with commands
-- 🎨 Works with all themes
+- Animated cat emojis running between code lines
+- Toggle on/off with commands
+- Auto-starts when the extension loads
 
 ## Commands
 
@@ -19,18 +23,16 @@ A fun VS Code extension that displays an animated cat running between your code 
 1. Open any file in VS Code
 2. Open the Command Palette (`Ctrl+Shift+P`)
 3. Search for "Running Cat" and select a command
-4. Watch your cat run! 🐱
+4. Watch emojis run through your lines
 
-The cat will automatically start when the extension is activated. Use the commands to control it.
+## Development Setup
 
-## Installation
+```bash
+npm install
+npm run compile
+# Press F5 to launch in debug mode
+```
 
-1. Clone or download this repository
-2. Run `npm install`
-3. Run `npm run compile`
-4. Open the extension in VS Code with `code .`
-5. Press `F5` to launch the extension in a new window
+---
 
-Enjoy your running cat! 🐱✨
-# cat-emoji-vs-code
-# cat-emoji-vs-code
+**Note**: This is purely a learning project for understanding VS Code extension development. Don't expect any real functionality beyond emoji animation!
