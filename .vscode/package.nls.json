@@ -1,0 +1,9 @@
+{
+  "name": "vscode-sample",
+  "displayName": "Sample",
+  "description": "Sample extension to get started.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.90.0"
+  }
+}

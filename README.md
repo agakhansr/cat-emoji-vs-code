@@ -33,3 +33,4 @@ The cat will automatically start when the extension is activated. Use the comman
 
 Enjoy your running cat! 🐱✨
 # cat-emoji-vs-code
+# cat-emoji-vs-code
